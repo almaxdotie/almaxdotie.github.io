@@ -1,0 +1,264 @@
+﻿html {
+    border-radius: 0;
+}
+
+body {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    border: 0px;
+    margin: auto;
+    color: #363636;
+     background-color: #F2F2F3;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+h1 {
+    font-family: 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    color: #22356b;
+    margin-top: 2px;
+    margin-bottom: 6px;
+}
+
+h2, h3{
+    font-family: 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    color: #22356b;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+
+h5 {
+    font-family: 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    color: #22356b;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+
+.glyphicon {
+}
+
+#allContentUnderNavBar {
+    background-color: #F2F2F3;
+}
+
+#leftColumn {
+    /*  background-color: #F2F2F3;*/
+}
+
+.navbar {
+    font-family: Helvetica, sans-serif, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    /*   border-bottom:  1px #6E7E9A; 
+    border-bottom: 1px solid #475E8A;*/
+    /* background-color: #003580;*/
+    background-color: #22356b;
+    /*bbackground-color:#1428A0; samsung blue */
+    margin-bottom:15px;
+}
+
+.navbar-header {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-brand {
+    font-size: 1.6em;
+    color: white;
+    /*border: 1.5px solid white;*/
+    font-family: Impact, 'impactreg', Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.navbar li {
+    padding: 12px;
+    font-size: 1.2em;
+    border-left: 1px solid #475E8A;
+    height: 45px;
+}
+
+.navbar a {
+    color: #F5F7FD;
+}
+/*#0084b4 - twitter blue*/
+
+navbar-toggle collapsed, .icon-bar {
+    background-color: #F5F7FD;
+}
+
+.navbar-toggle {
+    border: 1px solid #F5F7FD;
+}
+/* -------------------   /NAVBAR  ------------------- */
+
+#groupPhoto {
+    background-color: white;
+    border-right: 1px solid #B2C0CC;
+    border-left: 1px solid #B2C0CC;
+     margin-top:-15px;
+
+}
+
+
+.icon-sosa {
+    color: #337ab7;
+    font-size: 2.5em;
+}
+
+
+.contactFields{
+
+    margin-bottom:15px;
+}
+
+.contactFields .media {
+    background-color: white;
+    border: 1px solid #D9E0E8;
+    height: 52px;
+
+}
+
+.contactFields .media-object {
+    background-color: #E9EAEA;
+
+    
+     text-align: center;
+
+
+}
+
+.contactFields .media-body {
+    line-height: 52px;
+}
+
+.contactFields .media-heading {
+
+}
+
+.clock {
+}
+
+
+
+.services {
+border: 1px solid #D9E0E8;
+
+    background-color: #E9EAEA;
+    margin-bottom: 12px;
+
+    /* cbackground-color:#D9E0E8; similar to above, but darker */
+}
+
+.eight-point-cog {
+}
+
+#servicesHeading {
+    margin-bottom: 5px;
+    font-size: 1.8em;
+    padding-left: 10px;
+    padding-top: 4px;
+    color: #22356b;
+    font-family: Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    /* text-align: center;*/
+}
+
+.media {
+    background-color: white;
+    border: 1px solid #D9E0E8;
+    margin-bottom:10px;
+
+}
+
+.media-heading{
+    color:#22356b;
+}
+.services .media-object {
+    background-color: #e3eff8;
+  
+}
+
+.services .media-body {
+}
+
+
+
+.icon-car {
+    font-size: 60px;
+    /*color: #808e96; gray */
+    color: #475E8A;
+    padding: 15px;
+    text-align: center;
+}
+
+.gear-numbers {
+    padding: 5px;
+}
+
+.timing-belt {
+    font-size: 4em;
+}
+
+.thumbnail {
+    padding: 0px;
+}
+/*
+#testimonials {
+    background-color: white;
+    color: #1F3750;
+    border-radius: 4px;
+    padding: 8px;
+    padding-top: 10px;
+    font-size: .8em;
+    font-style: italic;
+}
+
+.customerName {
+    font-size: .9em;
+    color: #335C85;
+}*/
+
+#facebookHeading {
+    background-color: #E9EAEA;
+    padding-left: 5px;
+    border: 1px solid #D9E0E8;
+}
+
+
+.openingHours{
+    padding-top:4px;
+    padding-bottom:4px;
+    line-height:20px;
+
+    
+}
+
+#welcome{
+    width:100%;
+     background-color: white;
+    border: 1px solid #D9E0E8;
+        padding: 5px;
+        margin-bottom:10px;
+
+}
+
+#welcomeHeading{
+     color: #22356b;
+    font-family: Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    font-size: 1.5em;
+}
+
+.contactDetails{
+    color: #337ab7;
+}

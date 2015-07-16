@@ -1,0 +1,157 @@
+@font-face {
+	font-family: 'car';
+	src:url('car.eot?-5yqq2j');
+	src:url('car.eot?#iefix-5yqq2j') format('embedded-opentype'),
+		url('car.woff?-5yqq2j') format('woff'),
+		url('car.ttf?-5yqq2j') format('truetype'),
+		url('car.svg?-5yqq2j#car') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon-car {
+	font-family: 'car';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.tire:before {
+	content: "\e617";
+}
+
+.clutch:before {
+	content: "\e620";
+}
+
+.engine:before {
+	content: "\e621";
+}
+
+.gearStick:before {
+	content: "\e622";
+}
+
+.timingBelt:before {
+	content: "\e623";
+}
+
+.ABS:before {
+	content: "\e600";
+}
+
+.airbag:before {
+	content: "\e601";
+}
+
+.battery:before {
+	content: "\e602";
+}
+
+.brakes .path1:before {
+	content: "\e603";
+	color: rgb(35, 31, 32);
+}
+.brakes .path2:before {
+	content: "\e604";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.brakes .path3:before {
+	content: "\e605";
+	margin-left: -1em;
+	color: rgb(35, 31, 32);
+}
+.brakes .path4:before {
+	content: "\e606";
+	margin-left: -1em;
+	color: rgb(35, 31, 32);
+}
+
+.break-fluid:before {
+	content: "\e607";
+}
+
+.break-light:before {
+	content: "\e608";
+}
+
+.DEF:before {
+	content: "\e609";
+}
+
+.DPF:before {
+	content: "\e60a";
+}
+
+.DPF2:before {
+	content: "\e60b";
+}
+
+.engine2:before {
+	content: "\e60c";
+}
+
+.ESP:before {
+	content: "\e60d";
+}
+
+.fuel:before {
+	content: "\e60e";
+}
+
+.light:before {
+	content: "\e60f";
+}
+
+.light-straight:before {
+	content: "\e610";
+}
+
+.oil:before {
+	content: "\e611";
+}
+
+.overdrive:before {
+	content: "\e612";
+}
+
+.reduced-power:before {
+	content: "\e613";
+}
+
+.security:before {
+	content: "\e614";
+}
+
+.service:before {
+	content: "\e615";
+}
+
+.temperature:before {
+	content: "\e616";
+}
+
+.tire-pressure:before {
+	content: "\e61c";
+}
+
+.transmission:before {
+	content: "\e61d";
+}
+
+.wheel-alignment:before {
+	content: "\e61e";
+}
+
+.wrench-screwdriver:before {
+	content: "\e61f";
+}
+

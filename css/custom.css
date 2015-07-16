@@ -1,0 +1,354 @@
+﻿html {
+    border-radius: 0;
+}
+
+body {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    border: 0px;
+    margin: auto;
+    color: #363636;
+}
+
+a, a:hover, a:active, a:visited {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+h1 {
+    font-family: 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    color: #22356b;
+    margin-top: 2px;
+    margin-bottom: 6px;
+}
+
+h2, h3 {
+    font-family: 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    color: #22356b;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+h5 {
+    font-family: 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    color: #22356b;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.alignRight {
+    float: right;
+}
+
+.glyphicon {
+}
+
+/* -------------------   NAVBAR  ------------------- */
+.navbar {
+    font-family: 'Century Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*   border-bottom:  1px #6E7E9A; */
+    border-bottom: 1px solid #CC0000;
+    /* background-color: #003580;*/
+    background-color: white;
+    /*bbackground-color:#1428A0; samsung blue */
+}
+
+.navbar-header {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-brand {
+    font-size: 1.6em;
+    color: #CC0000;
+    /*border: 1.5px solid white;*/
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.navbar .companyName {
+    /*color:#FF4719;*/
+    font-size: 2em;
+    color: #CC0000;
+}
+#dotcom {
+    color: black;
+}
+.navbar li {
+    padding: 12px;
+    font-size: 1.2em;
+    border-left: 1px solid white;
+    height: 45px;
+
+}
+
+.navbar .navbar-right li{
+        background-color:#CC0000;
+}
+.navbar a {
+    color: #F5F7FD;
+    padding: 12px;
+}
+/*#0084b4 - twitter blue*/
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: transparent; /*Bootstrap override*/
+}
+
+navbar-toggle collapsed, .icon-bar {
+    background-color: #CC0000;
+}
+
+.navbar-toggle {
+    border: 1px solid #CC0000;
+}
+/* -------------------   /NAVBAR  ------------------- */
+
+
+
+#allContentUnderNavBar {
+    background-color: #F2F2F3;
+}
+
+#leftColumn {
+    /*  background-color: #F2F2F3;*/
+}
+
+/* -------------------   CONTACT FIELDS ------------------- */
+
+.contactFields {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+    .contactFields .media {
+        background-color: white;
+        border: 1px solid #D9E0E8;
+        height: 52px;
+    }
+
+    .contactFields .media-object {
+        background-color: #E9EAEA;
+        width: 52px;
+        line-height: 52px;
+        text-align: center;
+    }
+
+    .contactFields .media-body {
+        line-height: 52px;
+    }
+
+    .contactFields .media-heading {
+    }
+
+
+.icon-sosa {
+    /*color: #337ab7; Default bootstrap link colour*/
+    font-size: 2.5em;
+     color: #3b5998;
+}
+.icon-sosa a:hover{
+    color:green;
+}
+
+a {
+    color: #3b5998;
+
+}
+
+    a:hover {
+        color: #0066FF;
+    }
+
+    a:active {
+        color: #193EAC;
+    }
+
+
+.clock {
+}
+
+.openingHours {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    line-height: 20px;
+}
+/* -------------------   /CONTACT FIELDS ------------------- */
+
+/* -------------------   WELCOME AND IMAGE BOX------------------- */
+#welcomeAndImageBox{
+    
+    background-color: white;
+    padding-left:0px;
+    padding-right:0px;
+
+}
+
+#welcome {
+
+    padding: 10px;
+    padding-top:50px;
+}
+
+#welcomeHeading {
+    color: #22356b;
+    font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    font-size: 1.5em;
+    line-height: 5px;
+}
+
+#groupPhoto {
+    padding-right:0px;
+}
+
+#photoDescription {
+    color: white;
+    margin-top: -22px;
+    padding-left: 5px;
+}
+
+
+
+/* -------------------   SERVICES ------------------- */
+
+.services {
+    border: 1px solid #D9E0E8;
+    background-color: #E9EAEA;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    /* cbackground-color:#D9E0E8; similar to above, but darker */
+}
+
+
+
+#servicesHeading {
+    font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    background-color: #CC0000;
+    padding: 2px;
+    font-size: 1.8em;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+
+#servicesSubHeading {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-family: Calibri, Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    text-align: center;
+}
+
+.services .media-heading {
+    color: #CC0000;
+    padding-top: 20px;
+    font-size: 1.2em;
+
+}
+
+#diagnostics {
+    color: #FF3300;
+}
+
+#generalServicesDescription {
+    color: #0066FF;
+}
+
+.media {
+    background-color: white;
+    border: 1px solid #D9E0E8;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+}
+
+
+
+
+.media-left .services{
+    width: 60%;
+}
+.services .media-object {
+    /*light blue: background-color: #e3eff8; */
+    background-color: white;
+     width: 100px;
+     text-align: center;
+}
+
+.services .fa{
+    color: #CC0000;
+    line-height: 100px;
+}
+
+
+.services .media-body {
+}
+
+
+/* -------------------   /SERVICES ------------------- */
+
+
+/*
+#testimonials {
+    background-color: white;
+    color: #1F3750;
+    border-radius: 4px;
+    padding: 8px;
+    padding-top: 10px;
+    font-size: .8em;
+    font-style: italic;
+}
+
+.customerName {
+    font-size: .9em;
+    color: #335C85;
+}*/
+
+#fb-root {
+    background-color: #E9EAEA;
+}
+
+#facebookHeading {
+    background-color: #E9EAEA;
+    padding-left: 5px;
+    border: 1px solid #D9E0E8;
+}
+
+footer {
+    margin-top: 10px;
+    margin-right: 15px;
+    font-size: .8em;
+    float: right;
+}
+
+#faceBookColumn {
+}
+
+.contactFields {
+}
+
+.row {
+}
