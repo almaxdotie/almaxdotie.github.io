@@ -12,3 +12,11 @@ O'Connolle street night time
 
 Paint fonts:
 http://www.fontspace.com/category/paint?p=10
+
+
+Try this for the pause thingy:
+http://stackoverflow.com/questions/9843543/making-js-buttons-that-toggle-their-image-on-click
+
+
+
+ 

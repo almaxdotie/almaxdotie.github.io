@@ -69,6 +69,7 @@ img {
     /* background-color: #003580;*/
     background-color: white;
     /*bbackground-color:#1428A0; samsung blue */
+
 }
 
 .navbar-header {
@@ -84,25 +85,30 @@ img {
     padding-left: 12px;
     padding-right: 12px;
 }
+
 .navbar .companyName {
     /*color:#FF4719;*/
     font-size: 2em;
     color: #CC0000;
 }
+
 #dotcom {
     color: black;
 }
+
 .navbar li {
     padding: 12px;
     font-size: 1.2em;
     border-left: 1px solid white;
     height: 45px;
-
 }
 
-.navbar .navbar-right li{
-        background-color:#CC0000;
+
+
+.navbar .navbar-right li {
+    background-color: #CC0000;
 }
+
 .navbar a {
     color: #F5F7FD;
     padding: 12px;
@@ -120,6 +126,10 @@ navbar-toggle collapsed, .icon-bar {
 .navbar-toggle {
     border: 1px solid #CC0000;
 }
+
+ .navbar-collapse navbar-right li{
+    background-color:yellow;
+}
 /* -------------------   /NAVBAR  ------------------- */
 
 
@@ -131,6 +141,85 @@ navbar-toggle collapsed, .icon-bar {
 #leftColumn {
     /*  background-color: #F2F2F3;*/
 }
+
+
+/* -------------------   WELCOME AND IMAGE BOX------------------- */
+#welcomeAndImageBox {
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.carousel-control {
+        opacity: 1; /*Bootstrap override*/
+}
+/*
+.glyphicon-chevron-left:hover{
+    background-color:#E9EAEA;
+}
+.glyphicon-chevron-right:hover{    
+}
+*/
+
+.carousel-control.left:hover {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+.carousel-control.right:hover {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+.carousel-indicators li {
+    border-radius: 0px; /*Bootstrap override*/
+
+}
+
+.galleria {
+    width:100%;
+  /*  height: 300px;*/
+
+}
+
+.galleria-theme-classic{
+     background: white;
+}
+
+#welcome {
+    padding: 10px;
+    background-color:white;
+
+}
+
+#welcomeHeading {
+    color: #22356b;
+    font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    font-size: 1.5em;
+    line-height: 5px;
+}
+
+#groupPhoto {
+
+}
+
+#photoDescription {
+    color: white;
+    margin-top: -22px;
+    padding-left: 5px;
+}
+
 
 /* -------------------   CONTACT FIELDS ------------------- */
 
@@ -163,15 +252,15 @@ navbar-toggle collapsed, .icon-bar {
 .icon-sosa {
     /*color: #337ab7; Default bootstrap link colour*/
     font-size: 2.5em;
-     color: #3b5998;
+    color: #3b5998;
 }
-.icon-sosa a:hover{
-    color:green;
-}
+
+    .icon-sosa a:hover {
+        color: green;
+    }
 
 a {
     color: #3b5998;
-
 }
 
     a:hover {
@@ -193,40 +282,6 @@ a {
 }
 /* -------------------   /CONTACT FIELDS ------------------- */
 
-/* -------------------   WELCOME AND IMAGE BOX------------------- */
-#welcomeAndImageBox{
-    
-    background-color: white;
-    padding-left:0px;
-    padding-right:0px;
-
-}
-
-#welcome {
-
-    padding: 10px;
-    padding-top:50px;
-}
-
-#welcomeHeading {
-    color: #22356b;
-    font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
-    font-size: 1.5em;
-    line-height: 5px;
-}
-
-#groupPhoto {
-    padding-right:0px;
-}
-
-#photoDescription {
-    color: white;
-    margin-top: -22px;
-    padding-left: 5px;
-}
-
-
-
 /* -------------------   SERVICES ------------------- */
 
 .services {
@@ -239,7 +294,7 @@ a {
 
 
 
-#servicesHeading {
+.servicesHeading {
     font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
     background-color: #CC0000;
     padding: 2px;
@@ -266,7 +321,6 @@ a {
     color: #CC0000;
     padding-top: 20px;
     font-size: 1.2em;
-
 }
 
 #diagnostics {
@@ -282,23 +336,23 @@ a {
     border: 1px solid #D9E0E8;
     margin-top: 0px;
     margin-bottom: 5px;
-
 }
 
 
 
 
-.media-left .services{
+.media-left .services {
     width: 60%;
 }
+
 .services .media-object {
     /*light blue: background-color: #e3eff8; */
     background-color: white;
-     width: 100px;
-     text-align: center;
+    width: 100px;
+    text-align: center;
 }
 
-.services .fa{
+.services .fa {
     color: #CC0000;
     line-height: 100px;
 }
