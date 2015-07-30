@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'flaticon_painter';
-	src:url('fonts/flaticon_painter.eot?-i8l1ji');
-	src:url('fonts/flaticon_painter.eot?#iefix-i8l1ji') format('embedded-opentype'),
-		url('fonts/flaticon_painter.ttf?-i8l1ji') format('truetype'),
-		url('fonts/flaticon_painter.woff?-i8l1ji') format('woff'),
-		url('fonts/flaticon_painter.svg?-i8l1ji#flaticon_painter') format('svg');
+	src:url('fonts/flaticon_painter.eot?-gpwqk0');
+	src:url('fonts/flaticon_painter.eot?#iefix-gpwqk0') format('embedded-opentype'),
+		url('fonts/flaticon_painter.ttf?-gpwqk0') format('truetype'),
+		url('fonts/flaticon_painter.woff?-gpwqk0') format('woff'),
+		url('fonts/flaticon_painter.svg?-gpwqk0#flaticon_painter') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,6 +23,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.paintroller1:before {
+	content: "\e60a";
+}
 .business133:before {
 	content: "\e600";
 }
