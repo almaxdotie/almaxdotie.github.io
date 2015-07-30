@@ -62,45 +62,45 @@ img {
 }
 
 /* -------------------   NAVBAR  ------------------- */
-.navbar {
+
+
+#logo {
     font-family: 'Century Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /*   border-bottom:  1px #6E7E9A; */
     border-bottom: 1px solid #CC0000;
     /* background-color: #003580;*/
     background-color: white;
     /*bbackground-color:#1428A0; samsung blue */
-
-}
-
-.navbar-header {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.navbar-brand {
-    font-size: 1.6em;
-    color: #CC0000;
     /*border: 1.5px solid white;*/
-    padding-top: 12px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 10px;
+    padding-right: 5px;
+    /*color:#FF4719;*/
 }
 
-.navbar .companyName {
-    /*color:#FF4719;*/
-    font-size: 2em;
+#companyName {
+    font-size: 2.2em;
     color: #CC0000;
 }
 
 #dotcom {
     color: black;
+    font-size: 1.6em;
+    padding-right: 10px;
 }
 
+#logoCaption {
+    font-size: 1.3em;
+    color: #3b5998;
+    padding-top: 15px;
+    font-family: 'Georgia', 'Arial Narrow', Calibri, Tahoma', Franklin Gothic';
+}
+
+/*
 .navbar li {
     padding: 12px;
     font-size: 1.2em;
     border-left: 1px solid white;
-    height: 45px;
+
 }
 
 
@@ -109,16 +109,16 @@ img {
     background-color: #CC0000;
 }
 
-.navbar a {
+#logo a {
     color: #F5F7FD;
     padding: 12px;
 }
-/*#0084b4 - twitter blue*/
+#0084b4 - twitter blue
 
 .nav > li > a:hover, .nav > li > a:focus {
-    background-color: transparent; /*Bootstrap override*/
+    background-color: transparent; /*Bootstrap override
 }
-
+    
 navbar-toggle collapsed, .icon-bar {
     background-color: #CC0000;
 }
@@ -130,16 +130,14 @@ navbar-toggle collapsed, .icon-bar {
  .navbar-collapse navbar-right li{
     background-color:yellow;
 }
+
 /* -------------------   /NAVBAR  ------------------- */
 
 
 
 #allContentUnderNavBar {
     background-color: #F2F2F3;
-}
-
-#leftColumn {
-    /*  background-color: #F2F2F3;*/
+    padding-top: 10px;
 }
 
 
@@ -147,20 +145,48 @@ navbar-toggle collapsed, .icon-bar {
 #welcomeAndImageBox {
 }
 
+#welcome {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#welcomeHeading {
+    color: #22356b;
+    font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    font-size: 1.5em;
+    line-height: 5px;
+}
+
+#groupPhoto {
+}
+
+#photoDescription {
+    color: white;
+    margin-top: -22px;
+    padding-left: 5px;
+}
+
+
+/* ------------------- /END OF WELCOME AND IMAGE BOX------------------- */
+
+/*
 .carousel-control.left, .carousel-control.right {
     background-image: none
 }
 
 .carousel-control {
-        opacity: 1; /*Bootstrap override*/
+        opacity: 1; /*Bootstrap override
 }
-/*
+
 .glyphicon-chevron-left:hover{
     background-color:#E9EAEA;
 }
 .glyphicon-chevron-right:hover{    
 }
-*/
+
 
 .carousel-control.left:hover {
     background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
@@ -183,48 +209,25 @@ navbar-toggle collapsed, .icon-bar {
 }
 
 .carousel-indicators li {
-    border-radius: 0px; /*Bootstrap override*/
+    border-radius: 0px; /*Bootstrap override
 
 }
 
 .galleria {
     width:100%;
-  /*  height: 300px;*/
+  /*  height: 300px;
 
 }
 
 .galleria-theme-classic{
      background: white;
 }
-
-#welcome {
-    padding: 10px;
-    background-color:white;
-
-}
-
-#welcomeHeading {
-    color: #22356b;
-    font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
-    font-size: 1.5em;
-    line-height: 5px;
-}
-
-#groupPhoto {
-
-}
-
-#photoDescription {
-    color: white;
-    margin-top: -22px;
-    padding-left: 5px;
-}
+*/
 
 
 /* -------------------   CONTACT FIELDS ------------------- */
 
 .contactFields {
-    margin-top: 15px;
     margin-bottom: 15px;
 }
 
@@ -292,6 +295,9 @@ a {
     /* cbackground-color:#D9E0E8; similar to above, but darker */
 }
 
+.customCollaspeSection{
+    padding: 10px;
+}
 
 
 .servicesHeading {
@@ -392,10 +398,11 @@ a {
 }
 
 footer {
+    border-top: 1px solid #D9E0E8;
     margin-top: 10px;
-    margin-right: 15px;
+    padding-top:5px;
     font-size: .8em;
-    float: right;
+   text-align:center;
 }
 
 #faceBookColumn {
@@ -406,3 +413,46 @@ footer {
 
 .row {
 }
+
+.gallery .row {
+    color: red;
+}
+
+
+/*
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+
+   padding:5px;
+}*/
+
+
+/*
+#modal1 .modal-dialog {
+
+      width: 100%;
+
+      height: 100%;
+
+      padding: 0;
+
+      margin:0;
+
+}
+
+#modal1 .modal-content {   
+
+      height: 100%;
+
+      border-radius: 0;
+
+      color:white;
+
+      overflow:auto;
+
+}
+
+    #modal1 .modal-content img {
+        width: 100%;
+    }
+
+    */
