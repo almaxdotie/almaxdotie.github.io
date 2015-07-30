@@ -64,7 +64,7 @@ img {
 /* -------------------   NAVBAR  ------------------- */
 
 
-#logo {
+#topDivRow {
     font-family: 'Century Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /*   border-bottom:  1px #6E7E9A; */
     border-bottom: 1px solid #CC0000;
@@ -73,26 +73,32 @@ img {
     /*bbackground-color:#1428A0; samsung blue */
     /*border: 1.5px solid white;*/
     padding-left: 10px;
-    padding-right: 5px;
+
     /*color:#FF4719;*/
 }
 
+#logoAndCaption{
+            text-align: center;
+}
+
 #companyName {
-    font-size: 2.2em;
+    font-size: 2.5em;
     color: #CC0000;
+    font-weight: 600;
 }
 
 #dotcom {
     color: black;
     font-size: 1.6em;
     padding-right: 10px;
+    font-weight: 600;
 }
 
 #logoCaption {
-    font-size: 1.3em;
+    font-size: 1.6em;
     color: #3b5998;
-    padding-top: 15px;
-    font-family: 'Georgia', 'Arial Narrow', Calibri, Tahoma', Franklin Gothic';
+    padding-top: 10px;
+    font-family: 'Century Gothic', 'Arial Narrow', Calibri, Tahoma;
 }
 
 /*
@@ -260,7 +266,7 @@ navbar-toggle collapsed, .icon-bar {
 
 .flaticon {
      font-size:5em;
-    color: #3b5998;
+
 }
 
     .icon_sosa a:hover {
