@@ -38,9 +38,12 @@ h2, h3 {
 }
 
 h4 {
-    font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
-    font-size: 1.1em;
-    font-weight: 500;
+    font-family: 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    color: #22356b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    font-size:1.4em;
 }
 
 h5 {
@@ -241,7 +244,9 @@ a {
 }
 
 .customCollaspeSection {
-    padding: 10px;
+    padding-left: 10px;
+        padding-right: 10px;
+            padding-bottom: 10px;
 }
 
 
@@ -271,7 +276,7 @@ a {
 .services .media-heading {
     color: #CC0000;
     padding-top: 20px;
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 
 #diagnostics {
@@ -311,9 +316,15 @@ a {
     color: #CC0000;
     line-height: 100px;
 }
+.services .media-body{}
 
+.media-paragraphs{
+        padding-left:15px;
+            padding-right:15px;
+}
+.references{
+    font-style: italic;
 
-.services .media-body {
 }
 
 
@@ -335,6 +346,9 @@ a {
     font-size: .9em;
     color: #335C85;
 }*/
+
+
+
 
 #fb-root {
     background-color: #E9EAEA;
