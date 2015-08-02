@@ -1,0 +1,73 @@
+﻿html {
+    border-radius: 0;
+}
+
+body {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    border: 0px;
+    margin: auto;
+    color: #363636;
+}
+
+a, a:hover, a:active, a:visited {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+h1 {
+    font-family: 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    color: #22356b;
+    margin-top: 2px;
+    margin-bottom: 6px;
+}
+
+h2, h3 {
+    font-family: 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    color: #22356b;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+h5 {
+    font-family: 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
+    color: #22356b;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.alignRight {
+    float: right;
+}
+
+.glyphicon {
+}
+
+
+#topDivRow{
+    width:100%;
+}
+
+#allContentUnderNavBar {
+    background-color: #F2F2F3;
+    padding-top: 10px;
+
+}
