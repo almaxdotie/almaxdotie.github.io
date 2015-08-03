@@ -228,7 +228,10 @@ a {
     padding-bottom: 4px;
     line-height: 20px;
 }
-
+@media only screen and (max-width: 320px) {
+#address{
+    font-size:0.9em;
+}
 .dummySpan {
     color: #F2F2F3;
 }
@@ -326,11 +329,14 @@ a {
     color: #CC0000;
     line-height: 100px;
 }
-.services .media-body{}
+.services .media-body{
 
-.media-paragraphs{
+}
+
+.media-paragraph{
         padding-left:15px;
             padding-right:15px;
+            padding-top: 10px;
 }
 .quote{
     font-style: italic;
