@@ -223,13 +223,17 @@ a {
     line-height: 20px;
 }
 
-#dummySpan {
+.dummySpan {
     color: #F2F2F3;
 }
 /* -------------------   /CONTACT FIELDS ------------------- */
 
 /* -------------------   SERVICES ------------------- */
-
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    #welcomeAndServices {
+        margin-top: -105px;
+    }
+}
 .services {
     border-left: 1px solid #D9E0E8;
     border-right: 1px solid #D9E0E8;
@@ -322,9 +326,13 @@ a {
         padding-left:15px;
             padding-right:15px;
 }
-.references{
+.quote{
     font-style: italic;
 
+}
+
+aside{
+    padding-left:15px;
 }
 
 
