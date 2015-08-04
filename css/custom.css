@@ -385,29 +385,19 @@ aside{
 .row {
 }
 
-#share {
+#shareOnTwitter {
     text-align: center;
-    margin-top: 15px;
-    height: 40px;
-    line-height: 40px;
-    vertical-align: central;
+        width:100%;
+ 
 }
-
-#shareText {
-    text-align: center;
-    margin-top: 15px;
-    height: 40px;
-    line-height: 40px;
-    vertical-align: central;
-    display: inline;
-    padding-bottom: 20px;
+.tweet {
+    color:#55acee;
 }
-
 
 footer {
     border-top: 1px solid #D9E0E8;
     margin-top: 10px;
-    padding-top: 5px;
+    padding-top: 10px;
     font-size: .8em;
     text-align: center;
 }
