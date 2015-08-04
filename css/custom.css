@@ -386,19 +386,23 @@ aside{
 }
 
 #shareLinks{
-    text-align: center;
-        width:100%;
  
+        width:100%;
+   margin-left: auto;
+    margin-right: auto;
 }
 
+#shareLinks .media{
+       margin-bottom:10px;
+}
 #shareOnTwitter{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #shareOnGooglePlus{
-        padding-left: 10px;
-    padding-right: 10px;
+        padding-left: 5px;
+    padding-right: 5px;
 }
 
 .tweet {
@@ -406,7 +410,7 @@ aside{
 }
 
 .google_plus{
-    font-size:2em;
+    font-size:1.9em;
     color:white;
     background-color: #dd4b39;
     border-radius: 2px;
