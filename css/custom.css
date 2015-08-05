@@ -17,17 +17,19 @@ a, a:hover, a:active, a:visited {
     background-color: transparent;
 }
 
-.list{
-    padding-left:15px;
+.list {
+    padding-left: 15px;
 }
+
 ul {
     list-style-type: square;
     padding-left: 10px;
 }
 
-.bold{
-    font-weight:bold;
+.bold {
+    font-weight: bold;
 }
+
 h1 {
     font-family: 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
     color: #22356b;
@@ -49,7 +51,7 @@ h4 {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 0px;
-    font-size:1.4em;
+    font-size: 1.4em;
 }
 
 h5 {
@@ -72,16 +74,11 @@ img {
 
 /* -------------------   NAVBAR  ------------------- */
 
-
 #topDivRow {
-    /*   border-bottom:  1px #6E7E9A; */
     border-bottom: 1px solid #D9E0E8;
-    /* background-color: #003580;*/
     background-color: white;
-    /*bbackground-color:#1428A0; samsung blue */
-    /*border: 1.5px solid white;*/
     padding-bottom: 2px;
-    /*color:#FF4719;*/
+    width: 100%;
 }
 
 #logoAndCaption {
@@ -115,16 +112,11 @@ img {
 }
 
 /* -------------------   /NAVBAR  ------------------- */
-#topDivRow {
-    width: 100%;
-}
-
 
 #allContentUnderNavBar {
     background-color: #F2F2F3;
     padding-top: 10px;
 }
-
 
 /* -------------------   WELCOME AND IMAGE BOX------------------- */
 #welcomeAndImageBox {
@@ -141,27 +133,18 @@ img {
     line-height: 5px;
 }
 
-#welcomeSection2{
-
-}
-
-#groupPhoto {
-}
-
 #photoDescription {
     color: white;
     margin-top: -22px;
     padding-left: 5px;
 }
 
-
 /* ------------------- /END OF WELCOME AND IMAGE BOX------------------- */
-
 
 
 /* -------------------   CONTACT FIELDS ------------------- */
 #areasCovered {
-        margin-top: 10px;
+    margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -169,10 +152,6 @@ img {
 .contactFields {
     margin-bottom: 5px;
 }
-
-
-
-
     .contactFields .media-object {
         background-color: #E9EAEA;
         width: 52px;
@@ -187,21 +166,18 @@ img {
     .contactFields .media-heading {
     }
 
-        .contactFields .media {
+    .contactFields .media {
         background-color: white;
         border: 1px solid #D9E0E8;
         height: 52px;
-            margin-top: 5px;
-        
+        margin-top: 5px;
+    }
 
-
-}
 .icon_sosa {
     /*color: #337ab7; Default bootstrap link colour*/
     font-size: 2.5em;
     color: #3b5998;
 }
-
 
     .icon_sosa a:hover {
         color: green;
@@ -219,7 +195,6 @@ a {
         color: #193EAC;
     }
 
-
 .clock {
 }
 
@@ -234,31 +209,32 @@ a {
 }
 /* -------------------   /CONTACT FIELDS ------------------- */
 
+
 /* -------------------   SERVICES ------------------- */
 @media only screen and (min-width: 767px) and (max-width: 991px) {
     #welcomeAndServices {
         margin-top: -105px;
     }
 }
+
 .services {
     border-left: 1px solid #D9E0E8;
     border-right: 1px solid #D9E0E8;
     border-bottom: 1px solid #D9E0E8;
     background-color: white;
     margin-bottom: 10px;
-    /* cbackground-color:#D9E0E8; similar to above, but darker */
-        padding-top:15px;
-    padding-left:15px;
-    padding-right:15px;
-        padding-bottom:15px;
+    /* background-color:#D9E0E8; similar to above, but darker */
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 .customCollaspeSection {
     padding-left: 10px;
-        padding-right: 10px;
-            padding-bottom: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
-
 
 .servicesHeading {
     font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
@@ -270,7 +246,6 @@ a {
     color: white;
     text-align: center;
 }
-
 
 #servicesSubHeading {
     margin-bottom: 5px;
@@ -297,24 +272,15 @@ a {
     color: #0066FF;
 }
 
-
-
-
-
-
 .media-left .services {
     width: 60%;
 }
 
-
-    .services .media {
-
-        border: 2px solid #D9E0E8;
-            margin-top: 15px;
-        
-
-
+.services .media {
+    border: 2px solid #D9E0E8;
+    margin-top: 15px;
 }
+
 .services .media-object {
     /*light blue: background-color: #e3eff8; */
     background-color: white;
@@ -326,43 +292,26 @@ a {
     color: #CC0000;
     line-height: 100px;
 }
-.services .media-body{}
 
-.media-paragraphs{
-        padding-left:15px;
-            padding-right:15px;
+.services .media-body {
 }
-.quote{
+
+.media-paragraphs {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.quote {
     font-style: italic;
-
 }
 
-aside{
-    padding-left:15px;
+aside {
+    padding-left: 15px;
 }
-
 
 /* -------------------   /SERVICES ------------------- */
 
-
-/*
-#testimonials {
-    background-color: white;
-    color: #1F3750;
-    border-radius: 4px;
-    padding: 8px;
-    padding-top: 10px;
-    font-size: .8em;
-    font-style: italic;
-}
-
-.customerName {
-    font-size: .9em;
-    color: #335C85;
-}*/
-
-
-
+/* -------------------   FACEBOOK ------------------- */
 
 #fb-root {
     background-color: #E9EAEA;
@@ -374,49 +323,47 @@ aside{
     border: 1px solid #D9E0E8;
 }
 
-
 #faceBookColumn {
     margin-top: 10px;
 }
+/* -------------------   /FACEBOOK ------------------- */
 
-.contactFields {
-}
-
-.row {
-}
-
-#shareLinks{
- 
-        width:100%;
-   margin-left: auto;
+/* -------------------   SHARE LINKS ------------------- */
+#shareLinks {
+    width: 100%;
+    margin-left: auto;
     margin-right: auto;
 }
 
-#shareLinks .media{
-       margin-bottom:10px;
-}
-#shareOnTwitter{
+    #shareLinks .media {
+        margin-bottom: 10px;
+    }
+
+#shareOnTwitter {
     padding-left: 5px;
     padding-right: 5px;
 }
 
-#shareOnGooglePlus{
-        padding-left: 5px;
+#shareOnGooglePlus {
+    padding-left: 5px;
     padding-right: 5px;
 }
 
 .tweet {
-    color:#55acee;
+    color: #55acee;
 }
 
-.google_plus{
-    font-size:1.9em;
-    color:white;
+.google_plus {
+    font-size: 1.9em;
+    color: white;
     background-color: #dd4b39;
     border-radius: 2px;
     padding: 2px;
-    margin-right:5px;
+    margin-right: 5px;
 }
+
+/* -------------------   /SHARE LINKS ------------------- */
+
 footer {
     border-top: 1px solid #D9E0E8;
     margin-top: 10px;
@@ -424,40 +371,4 @@ footer {
     font-size: .8em;
     text-align: center;
 }
-/*
-.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
 
-   padding:5px;
-}*/
-
-
-/*
-#modal1 .modal-dialog {
-
-      width: 100%;
-
-      height: 100%;
-
-      padding: 0;
-
-      margin:0;
-
-}
-
-#modal1 .modal-content {   
-
-      height: 100%;
-
-      border-radius: 0;
-
-      color:white;
-
-      overflow:auto;
-
-}
-
-    #modal1 .modal-content img {
-        width: 100%;
-    }
-
-    */

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Specialising in painting and decorating, servicing all types of homes and business.">
 
     <title>Almax Painters and Decorators</title>
 
@@ -24,6 +25,9 @@
     <!--[if lt IE 8]><!-->
     <link href="fonts/IECompatibility/ie7.css" rel="stylesheet" />
     <!--<![endif]-->
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+
     <!--Picture Fill  - recommnended to be in head
     <script>
         // Picture element HTML5 shiv
@@ -35,7 +39,8 @@
 
 </head>
 
-<body>
+<body onload="fnExpandReferencesDiv()">
+
     <div id="entirePage">
 
         <div id="topDivRow">
@@ -56,11 +61,8 @@
                 <div class="row" id="maintPhotoAndWelcome">
 
                     <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
-
                         <img src="/gallery/galleryImages/Balbriggan Apartment Block Image 2.jpg" alt="..." />
-
                     </div>
-
 
                     <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 contactFields">
 
@@ -285,7 +287,7 @@
                                                 Read about what our customers have had to say in their reviews here. Show/Hide<br />
                                             </a>
                                         </div>
-                                        <div class="media-paragraphs collapse customCollaspeSection in" id="collapseReferences">
+                                        <div class="media-paragraphs collapse customCollaspeSection" id="collapseReferences">
 
                                             <div class="media-paragraphs">
                                                 <p>
@@ -315,45 +317,45 @@
                             </div><!--/References Box Row-->
 
                         </div><!--/Embedded -->
-                       
-                            <div class="row "id="shareLinks">
 
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                    <div class="media ">
-                                        <div class="media-left media-top">
-                                            <a target="_blank" href="https://twitter.com/home?status=Check%20out%20Almax.ie%20for%20painting%20and%20decorating">
-                                                <span class="icon_sosa tweet"></span>
-                                            </a>
-                                        </div>
-                                        <div class="media-body">
-                                            <a target="_blank" href="https://twitter.com/home?status=Check%20out%20Almax.ie%20for%20painting%20and%20decorating">
-                                                Share this page on Twitter
-                                            </a>
-                                        </div>
+                        <div class="row " id="shareLinks">
+
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <div class="media">
+                                    <div class="media-left media-top">
+                                        <a target="_blank" href="https://twitter.com/home?status=Check%20out%20Almax.ie%20for%20painting%20and%20decorating">
+                                            <span class="icon_sosa tweet"></span>
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <a target="_blank" href="https://twitter.com/home?status=Check%20out%20Almax.ie%20for%20painting%20and%20decorating">
+                                            Share this page on Twitter
+                                        </a>
                                     </div>
                                 </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                        <div class="media ">
-                                            <div class="media-left media-top">
-                                                <a href="https://plus.google.com/share?url=www.almax.ie">
-                                                    <span class="icon_sosa google_plus"></span>
-                                                </a>
-                                            </div>
-                                            <div class="media-body">
-                                                <a target="_blank" href="https://twitter.com/home?status=Check%20out%20Almax.ie%20for%20painting%20and%20decorating">
-                                                    Share on Google+
-                                                </a>
-                                            </div>
-                                        </div>
-
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <div class="media ">
+                                    <div class="media-left media-top">
+                                        <a href="https://plus.google.com/share?url=www.almax.ie">
+                                            <span class="icon_sosa google_plus"></span>
+                                        </a>
                                     </div>
+                                    <div class="media-body">
+                                        <a target="_blank" href="https://twitter.com/home?status=Check%20out%20Almax.ie%20for%20painting%20and%20decorating">
+                                            Share on Google+
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
 
 
 
 
 
-                        </div><!--/welcomeAndServices Column -->
+                    </div><!--/welcomeAndServices Column -->
 
 
                     <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4" id="faceBookColumn">
@@ -372,13 +374,7 @@
                         </div><!--fb-root-->
 
                         <script>
-                            (function (d, s, id) {
-                                var js, fjs = d.getElementsByTagName(s)[0];
-                                if (d.getElementById(id)) return;
-                                js = d.createElement(s); js.id = id;
-                                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
-                                fjs.parentNode.insertBefore(js, fjs);
-                            }(document, 'script', 'facebook-jssdk'));
+                           
                         </script>
 
                         <div class="fb-page" data-href="https://www.facebook.com/pages/Almax-Painters-and-Decorators-Dublin/387751431386503" data-hide-cover="false" data-show-facepile="true" data-show-posts="true" data-height="825px" data-width="100%">
@@ -388,23 +384,6 @@
                                 </blockquote>
                             </div>
                         </div>
-
-
-                        <!--
-                        <h4>tel: 01 813 9955 </h4>
-                        <h4>email: info@metroauto.ie</h4>
-                        <br />
-
-                        <div id="testimonials">
-                            "Service couldn't have been better from the guys at Metro Auto"
-                            <br />
-                            <span class="customerName">John Murphy, Roganstown, Swords...more reviews</span>
-                        </div>
-                        <br />
-
-
-                        <a class="twitter-timeline" href="https://twitter.com/BWebDotIE" data-widget-id="587761078261657601">Tweets by @BWebDotIE</a>
-                            -->
 
                     </div><!--  /Column 2, of ROW 2-->
 
@@ -417,10 +396,12 @@
                         </footer>
                     </div>
                 </div>
+
             </div><!-- /.container-fluid -->
         </div><!--/allContentUnderNavBar-->
     </div><!--/entirePage-->
 
+    <script src="scripts/main.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <!--<script src="js/twitterFeed.js"></script>-->
 </body>
