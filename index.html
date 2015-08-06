@@ -39,7 +39,7 @@
 
 </head>
 
-<body onload="fnExpandReferencesDiv()">
+<body onload="fnExpandReferencesDiv();">
 
     <div id="entirePage">
 
@@ -164,11 +164,11 @@
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Commerical</h4>
-                                            <a id="details-switch" data-toggle="collapse" href="#collapseCommercial" aria-expanded="false" aria-controls="collapseCommercial">
-                                                Read about the Almax exterior process from consultation to after sales care. Show/Hide
+                                            <a id="details-switch" data-toggle="collapse" href="#collapsibleCommercialDiv" aria-expanded="false" aria-controls="collapsibleCommercialDiv">
+                                                Read about the Almax commcerical painting and decorating process from consultation to after sales care. <span id="commercialMoreLessTrigger" class="moreLessLink">Show More</span><span id="commercialMoreLessTriangle" class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
                                             </a>
                                         </div>
-                                        <div class="media-paragraphs collapse customCollaspeSection" id="collapseCommercial">
+                                        <div class="media-paragraphs collapse customCollaspeSection" id="collapsibleCommercialDiv">
                                             <p>
                                                 We manage tight deadlines and budgets for both large and small commercial buildings, interiors and exteriors. Just a few of our commercial services include:
                                                 <div class="list">
@@ -203,7 +203,6 @@
                                                     </ul>
                                                 </div>
                                             </p>
-
                                         </div>
                                     </div>
                                 </div>
@@ -220,12 +219,16 @@
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Residential</h4>
-                                            <a id="details-switch" data-toggle="collapse" href="#collapseResidential" aria-expanded="false" aria-controls="collapseResidential">
-                                                Read about the Almax interior process from consultation to after sales care. Show/Hide
+                                            <a id="details-switch" data-toggle="collapse" href="#collapsibleResidentialDiv" aria-expanded="false" aria-controls="collapseResidential">
+                                                Read about the Almax residential painting and decorating process from consultation to after sales care. 
+                                                <span class="showHideTextAndArrow">
+                                                    <span id="residentialMoreLessTrigger" class="moreLessLink">Show More</span>
+                                                    <span id="residentialMoreLessTriangle" class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+                                                </span>
                                             </a>
                                         </div>
-                                        <div class="media-paragraphs collapse customCollaspeSection" id="collapseResidential">
 
+                                        <div class="media-paragraphs collapse customCollaspeSection" id="collapsibleResidentialDiv">
                                             <p>
                                                 We can offer advice on what colors best accent certain areas or walls of your home. If you already have your colors selected we can simply provide you with an estimate and time frame to complete your project. Either way, we adapt to meet your needs.
                                             </p>
@@ -283,11 +286,12 @@
                                                 <h4 class="media-heading">References</h4>
                                             </a>
 
-                                            <a id="details-switch" data-toggle="collapse" href="#collapseReferences" aria-expanded="false" aria-controls="collapseResidential">
-                                                Read about what our customers have had to say in their reviews here. Show/Hide<br />
+                                            <a id="details-switch" data-toggle="collapse" href="#collapsibleReferencesDiv" aria-expanded="false" aria-controls="collapseResidential" onclick="showHideToggle()">
+                                                Read what some of our customers have had to say in their reviews.
+                                                <span id="referencesMoreLessTrigger" class="moreLessLink"></span><span id="referencesMoreLessTriangle" class="" aria-hidden="true"></span> <!--main.js adds the triangle-top glyph or triangle-bottom class because it depends on the size of the screen, as calculated by the main.js-->
                                             </a>
                                         </div>
-                                        <div class="media-paragraphs collapse customCollaspeSection" id="collapseReferences">
+                                        <div class="media-paragraphs collapse customCollaspeSection" id="collapsibleReferencesDiv">
 
                                             <div class="media-paragraphs">
                                                 <p>
@@ -308,7 +312,6 @@
                                                 <p>
                                                     <a target="_blank" href="https://www.facebook.com/387751431386503/photos/pb.387751431386503.-2207520000.1438542227./421001578061488/?type=3&theater">See the full, original reference, and more like it here.</a>
                                                 </p>
-
                                             </div>
                                         </div>
                                     </div>
@@ -351,10 +354,6 @@
                             </div>
                         </div>
 
-
-
-
-
                     </div><!--/welcomeAndServices Column -->
 
 
@@ -374,7 +373,7 @@
                         </div><!--fb-root-->
 
                         <script>
-                           
+
                         </script>
 
                         <div class="fb-page" data-href="https://www.facebook.com/pages/Almax-Painters-and-Decorators-Dublin/387751431386503" data-hide-cover="false" data-show-facepile="true" data-show-posts="true" data-height="825px" data-width="100%">
@@ -390,12 +389,20 @@
                 </div> <!--/Row 2 -->
 
                 <div class="row">
+                    <!--Footer -->
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="faceBookColumn">
                         <footer>
                             Almax.ie and Almax Painting & Decorating Services Ltd. : trading as Almax Construction Ltd.  Design by: <a href=http://www.bweb.ie>BWeb.ie</a>
                         </footer>
                     </div>
-                </div>
+                </div><!--/Footer -->
+
+
+                <script>
+                  
+                </script>
+
+
 
             </div><!-- /.container-fluid -->
         </div><!--/allContentUnderNavBar-->
