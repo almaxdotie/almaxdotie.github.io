@@ -15,7 +15,16 @@ body {
 a, a:hover, a:active, a:visited {
     text-decoration: none;
     background-color: transparent;
+    color: #3b5998;
 }
+
+    a:hover {
+        color: #0066FF;
+    }
+
+    a:active {
+        color: #193EAC;
+    }
 
 .list {
     padding-left: 15px;
@@ -69,8 +78,6 @@ img {
     float: right;
 }
 
-.glyphicon {
-}
 
 /* -------------------   NAVBAR  ------------------- */
 
@@ -184,17 +191,6 @@ img {
         color: green;
     }
 
-a {
-    color: #3b5998;
-}
-
-    a:hover {
-        color: #0066FF;
-    }
-
-    a:active {
-        color: #193EAC;
-    }
 
 .clock {
 }
@@ -313,17 +309,27 @@ aside {
 }
 
 .services .glyphicon {
-
+    top: 4px; /* override of bootstrap's default of 1px */
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 10px;
     font-size: 1.2em;
 }
 
+.showHideTextAndArrow {
+    float: right;
+    color: #CC0000;
+}
+
+    .showHideTextAndArrow:hover {
+        color: #0066FF;
+    }
+
+    .showHideTextAndArrow:active {
+        color: #193EAC;
+    }
 
 /* -------------------   /SERVICES ------------------- */
-
 /* -------------------   FACEBOOK ------------------- */
-
 #fb-root {
     background-color: #E9EAEA;
 }
@@ -391,9 +397,4 @@ footer {
     padding-top: 10px;
     font-size: .8em;
     text-align: center;
-}
-
-
-.in .showHide {
-    color: green;
 }
