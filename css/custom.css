@@ -328,7 +328,12 @@ aside {
         color: #193EAC;
     }
 
+     .showHideTextAndArrow:visited {
+        color: #CC0000;
+    }
+
 /* -------------------   /SERVICES ------------------- */
+
 /* -------------------   FACEBOOK ------------------- */
 #fb-root {
     background-color: #E9EAEA;
