@@ -146,6 +146,28 @@ img {
     padding-left: 5px;
 }
 
+
+
+
+.carousel-caption {
+    bottom: 0px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) );
+    margin-left:60%;
+    width: 40%;
+    left: 0%;
+    right: 0%;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Century Gothic', 'Muli','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@media only screen and (max-width: 320px) { /* Hide photo captions on xtra small screens*/
+    .carousel-caption {
+        display: none;
+    }
+}
+
 /* ------------------- /END OF WELCOME AND IMAGE BOX------------------- */
 
 
@@ -328,7 +350,7 @@ aside {
         color: #193EAC;
     }
 
-     .showHideTextAndArrow:visited {
+    .showHideTextAndArrow:visited {
         color: #CC0000;
     }
 
