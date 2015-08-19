@@ -48,10 +48,19 @@ h1 {
 
 h2, h3 {
     font-family: 'Century Gothic', 'Core Sans N 25', 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
-    color: #22356b;
     padding-top: 0px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+}
+
+h2 {
+    color: #CC0000;
+    font-size: 1.6em;
+}
+
+h3 {
+    color: #22356b;
+    font-size: 1.2em;
 }
 
 h4 {
@@ -79,6 +88,10 @@ img {
 }
 
 
+
+.thumbnail {
+    border-radius: 0px;
+}
 /* -------------------   NAVBAR  ------------------- */
 
 #topDivRow {
@@ -151,8 +164,8 @@ img {
 
 .carousel-caption {
     bottom: 0px;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) );
-    margin-left:60%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    margin-left: 60%;
     width: 40%;
     left: 0%;
     right: 0%;
@@ -243,10 +256,7 @@ img {
     background-color: white;
     margin-bottom: 10px;
     /* background-color:#D9E0E8; similar to above, but darker */
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
 }
 
 .customCollaspeSection {
@@ -278,9 +288,7 @@ img {
 }
 
 .services .media-heading {
-    color: #CC0000;
     padding-top: 20px;
-    font-size: 1.6em;
 }
 
 #diagnostics {
@@ -425,3 +433,44 @@ footer {
     font-size: .8em;
     text-align: center;
 }
+
+
+/* ############### GALLERY.HTML Page ############### */
+
+#commercialProjects {
+    background-color: #FBFBFB;
+}
+
+.projectType {
+    border: 1px solid #D9E0E8;
+}
+
+.project {
+    border: 2px solid #D9E0E8;
+    background-color: white;
+}
+/*
+.percentageBorder{
+    width:90%;
+    border-bottom: 1px solid #3b5998;
+    border-bottom-width:thin;
+}*/
+
+.projectTypeHeading {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #CC0000;
+}
+
+#gallery .fa {
+    line-height: 40px;
+}
+
+#gallery h2 {
+    line-height: 40px;
+}
+
+.projectTypeHeading {
+}
+
