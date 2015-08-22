@@ -573,6 +573,7 @@ margin-top:15px;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
+        
 }
 
 .boxInnerText {
@@ -580,6 +581,7 @@ margin-top:15px;
     top: 40%;
     transform: translateY(-60%);
     padding: 15px;
+    color:#22356b;
 }
 
 @font-face {
