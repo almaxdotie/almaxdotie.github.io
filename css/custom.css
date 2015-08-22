@@ -442,6 +442,11 @@ footer {
     margin: 10px;
 }
 
+.wrap .row{
+    margin-left:0px;
+    margin-right:0px;
+}
+
 .box {
     float: left;
     position: relative;
@@ -531,9 +536,13 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
     margin-top: 15px;
         margin-bottom: 10px;
     color: #CC0000;
+        padding-left:10px;
+        border-top: 1px solid #CC0000;
+        padding-top:15px;
+      }
 
-
-
+.projectTypeHeadingDiv .fa-home {
+    padding-left:15px; /*extra padding because the home icon's roof sticks out more than the apartment icon */
 }
 
 .projectTypeHeadingDiv .media-object{
@@ -542,19 +551,13 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 
 }
 
-.projectTypeHeadingDiv .fa-home {
-    padding-left:20px; /*extra padding because the home icon's roof sticks out more than the apartment icon */
-}
-
-
-
-
-
-
 .projectTypeHeadingText {
    
 }
 
+#residentialSection{
+margin-top:15px;
+}
 .projectThumbnail {
 }
 
@@ -599,6 +602,12 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 
 
 }
+
+#commercialSection{
+        border-top: 1px solid #CC0000;
+            padding-top:10px;
+}
+
 
 
 
