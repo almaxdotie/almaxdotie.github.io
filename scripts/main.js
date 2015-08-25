@@ -1,4 +1,6 @@
-﻿function fnExpandReferencesDiv() {
+﻿
+// If window width is greater than 768px then expand the references section
+function fnExpandReferencesDiv() {
     var mq = window.matchMedia("(min-width: 768px)");
 
     if (mq.matches) { // window width is at least 768px

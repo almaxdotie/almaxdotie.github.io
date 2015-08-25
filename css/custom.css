@@ -148,6 +148,10 @@ img {
     margin-bottom: 5px;
 }
 
+.item {
+    width: 100%;
+}
+
 #welcomeHeading {
     color: #22356b;
     font-family: 'Century Gothic', Helvetica, sans-serif, Calibri, 'Franklin Gothic', 'Segoe UI',Frutiger,Tahoma,Helvetica,Sans-Serif;
@@ -176,6 +180,30 @@ img {
     font-family: 'Century Gothic', 'Muli','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.centerText{
+    bottom: 0px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    margin-left: 60%;
+    width: 40%;
+    left: 0%;
+    right: 0%;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Century Gothic', 'Muli','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.darkImageOverlay {
+    position: absolute; /*from BS .carousel-caption class*/
+    bottom: 0px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    right: 0%;
+    z-index: 10; /*from BS .carousel-caption class*/
+}
+
+
 
 @media only screen and (max-width: 320px) { /* Hide photo captions on extra small screens*/
     .carousel-caption {
@@ -183,6 +211,48 @@ img {
     }
 }
 
+#showGallerySlide {
+    position: relative;
+    padding-bottom: 60%;
+    height: 0;
+    background: #E9EAEA;
+}
+
+#showGallerySlideInner {
+    position: absolute;
+    top: 35%; /*For the text and icon to go in the vetical center*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#showGallerySlideInnerContent {
+    position: relative;
+    height: 0;
+    color: #CC0000;
+    text-align: center;
+}
+/*CHECK IF I SHOULD I USE BELOW?
+#showGallerySlideInner {
+    position: absolute;
+    transform: translateY(-60%);
+    padding: 15px;
+    color: #22356b;
+}*/
+
+#showGallerySlideInnerContentHeading {
+    padding: 10px;
+}
+
+.darkenImage {
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+}
+
+#galleryOverviewSlide {
+}
 /* ------------------- /END OF WELCOME AND IMAGE BOX------------------- */
 
 
@@ -305,7 +375,7 @@ img {
 .services .media {
     border: 2px solid #D9E0E8;
     margin-top: 10px;
-padding-right:10px;
+    padding-right: 10px;
 }
 
 .services .media-object {
@@ -442,10 +512,10 @@ footer {
     margin: 10px;
 }
 
-.wrap .row{
-    margin-left:0px;
-    margin-right:0px;
-}
+    .wrap .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
 .box {
     float: left;
@@ -453,6 +523,8 @@ footer {
     width: 20%;
     padding-bottom: 20%;
 }
+
+
 
 .boxInner {
     position: absolute;
@@ -534,36 +606,29 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 
 .projectTypeHeadingDiv {
     margin-top: 15px;
-        margin-bottom: 10px;
+    margin-bottom: 10px;
     color: #CC0000;
-        padding-left:10px;
-        border-top: 1px solid #CC0000;
-        padding-top:15px;
-      }
-
-.projectTypeHeadingDiv .fa-home {
-    padding-left:15px; /*extra padding because the home icon's roof sticks out more than the apartment icon */
+    padding-left: 10px;
+    border-top: 1px solid #CC0000;
+    padding-top: 15px;
 }
 
-.projectTypeHeadingDiv .media-object{
-    padding-right:10px; /*extra padding because of bug with Android Browser */
-    
+    .projectTypeHeadingDiv .fa-home {
+        padding-left: 15px; /*extra padding because the home icon's roof sticks out more than the apartment icon */
+    }
 
-}
+    .projectTypeHeadingDiv .media-object {
+        padding-right: 10px; /*extra padding because of bug with Android Browser */
+    }
 
 .projectTypeHeadingText {
-   
 }
 
-#residentialSection{
-margin-top:15px;
+#residentialSection {
+    margin-top: 15px;
 }
+
 .projectThumbnail {
-}
-
-.verticalMiddleTextAlign {
-    height: 100%;
-    vertical-align: middle;
 }
 
 .projectHeadingBoxInner {
@@ -573,7 +638,6 @@ margin-top:15px;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
-        
 }
 
 .boxInnerText {
@@ -581,7 +645,7 @@ margin-top:15px;
     top: 40%;
     transform: translateY(-60%);
     padding: 15px;
-    color:#22356b;
+    color: #22356b;
 }
 
 @font-face {
@@ -601,13 +665,11 @@ margin-top:15px;
 
 .thumbnail {
     padding: 2px; /*BS Override (of 4px) */
-
-
 }
 
-#commercialSection{
-        border-top: 1px solid #CC0000;
-            padding-top:10px;
+#commercialSection {
+    border-top: 1px solid #CC0000;
+    padding-top: 10px;
 }
 
 
@@ -629,7 +691,7 @@ margin-top:15px;
         position: absolute;
         top: -20%;
         transform: translateY(0%);
-        padding-bottom:5px;
+        padding-bottom: 5px;
     }
 
     .glyphicon-triangle-right {
