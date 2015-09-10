@@ -190,11 +190,12 @@ img {
 
 .carousel-caption-centerText .textOnImage {
         background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+           background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
         font-family: 'Century Gothic', 'Muli','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2em;
     color: white;
-    padding: 5px;
-        width: 50%;
+    padding: 8px;
+        width: 40%;
             text-align: center;
 
     /*Vertical Bit*/
@@ -222,7 +223,6 @@ img {
     margin: 0;
     padding: 0;
     border: 0;
-    cursor: pointer;
 }
 
     .imageLayerOne img {
@@ -563,28 +563,29 @@ footer {
     .boxInner img {
         width: 100%;
     }
-/*
+    /*
+@media only screen and (min-width : 481px) {
     .boxInner .titleBox {
         position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
+        bottom: 4px;
+        left: 4px;
+        right: 4px;
         margin-bottom: -50px;
         background: #000;
         background: rgba(0, 0, 0, 0.5);
         color: #FFF;
         padding: 10px;
         text-align: center;
-        -webkit-transition: all 0.3s ease-out;
-        -moz-transition: all 0.3s ease-out;
-        -o-transition: all 0.3s ease-out;
-        transition: all 0.3s ease-out;
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
     }*/
 
-body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
-    margin-bottom: 0;
+    body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+        margin-bottom: 0;
+    }
 }
-
 
 
 @media only screen and (max-width : 480px) and (min-width : 321px) {
