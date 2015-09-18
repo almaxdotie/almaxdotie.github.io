@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +10,10 @@
 
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
 
+  
+
     <!--MAIN CSS-------------------------------------->
-    <!-- <link href="css/library/bootstrap.min.css" rel="stylesheet" />-->
+    <!-- <link href=" css />library/bootstrap.min.css" rel="stylesheet" />-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="css/custom.css" rel="stylesheet" />
 
@@ -406,7 +408,6 @@
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
 
                             </div><!--/References Box Row-->
@@ -481,29 +482,39 @@
 
                 </div> <!--/Row 2 -->
 
-                <div class="row">
-                    <!--Footer -->
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="faceBookColumn">
-                        <footer>
-                            Almax.ie and Almax Painting & Decorating Services Ltd. : trading as Almax Construction Ltd.  Design by: <a href=http://www.bweb.ie>BWeb.ie</a>
-                        </footer>
+                <div class="row"> <!--For messing around in -->
+            Gallery here
+                    <div class="row" ng-include="'gallery.html'">
+
                     </div>
-                </div><!--/Footer -->
+                   
+
+                </div>
+                    <div class="row">
+                        <!--Footer -->
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="faceBookColumn">
+                            <footer>
+                                Almax.ie and Almax Painting & Decorating Services Ltd. : trading as Almax Construction Ltd.  Design by: <a href=http://www.bweb.ie>BWeb.ie</a>
+                            </footer>
+                        </div>
+                    </div><!--/Footer -->
 
 
-                <script>
+                    <script>
 
-                </script>
+                    </script>
 
 
 
-            </div><!-- /.container-fluid -->
+                </div><!-- /.container-fluid -->
         </div><!--/allContentUnderNavBar-->
     </div><!--/entirePage-->
 
     <script src="scripts/main.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <!--<script src="js/twitterFeed.js"></script>-->
+
+    <script src="scripts/vendors/angular.min.js"></script>
 </body>
 
 </html> 
