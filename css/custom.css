@@ -189,15 +189,14 @@ img {
 }
 
 .carousel-caption-centerText .textOnImage {
-        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
-           background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
-        font-family: 'Century Gothic', 'Muli','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    font-family: 'Century Gothic', 'Muli','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2em;
     color: white;
     padding: 8px;
-        width: 40%;
-            text-align: center;
-
+    width: 40%;
+    text-align: center;
     /*Vertical Bit*/
     margin: 0;
     position: absolute;
@@ -530,7 +529,24 @@ footer {
 
 
 /* ############### GALLERY.HTML Page ############### */
+@font-face {
+    font-family: 'Florsn01';
+    src: url('../fonts/Florsn01.ttf') format('truetype');
+}
 
+@font-face {
+    font-family: 'RobotoCondensed-Regular';
+    src: url('../fonts/RobotoCondensed-Regular.ttf') format('truetype');
+}
+
+.projectTypeHeadingDiv {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #CC0000;
+    padding-left: 10px;
+    border-top: 1px solid #CC0000;
+    padding-top: 15px;
+}
 
 .wrap {
     overflow: hidden;
@@ -546,46 +562,8 @@ footer {
     float: left;
     position: relative;
     width: 50%;
-    padding-bottom: 20%;
+    padding-bottom: 50%;
 }
-
-
-
-.boxInner {
-    position: absolute;
-    left: 10px;
-    right: 10px;
-    top: 10px;
-    bottom: 10px;
-    overflow: hidden;
-}
-
-    .boxInner img {
-        width: 100%;
-    }
-    /*
-@media only screen and (min-width : 481px) {
-    .boxInner .titleBox {
-        position: absolute;
-        bottom: 4px;
-        left: 4px;
-        right: 4px;
-        margin-bottom: -50px;
-        background: #000;
-        background: rgba(0, 0, 0, 0.5);
-        color: #FFF;
-        padding: 10px;
-        text-align: center;
-        -webkit-transition: all 0.2s ease-out;
-        -moz-transition: all 0.2s ease-out;
-        -o-transition: all 0.2s ease-out;
-        transition: all 0.2s ease-out;
-    }*/
-
-    body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
-        margin-bottom: 0;
-    }
-
 
 
 @media only screen and (min-width : 321px) and (max-width : 480px) {
@@ -596,7 +574,7 @@ footer {
     }
 }
 
-@media only screen and (min-width : 481px) and (max-width : 650px)  {
+@media only screen and (min-width : 481px) and (max-width : 650px) {
     /* Tablet view: 2 tiles */
     .box {
         width: 50%;
@@ -620,59 +598,36 @@ footer {
         /* width: 33.3%;
             padding-bottom: 33.3%;*/
         width: 20%;
-        padding-bottom: 25%;
+        padding-bottom: 20%;
     }
 }
 
-@media only screen and (min-width : 360px) and (max-width: 480px) and (min-resolution: 180dpi) 
-{
-     /* Huawei G7-L01 */
+@media only screen and (min-width : 360px) and (max-width: 480px) and (min-resolution: 180dpi) {
+    /* Huawei G7-L01 */
     .box {
         width: 50%;
         padding-bottom: 50%;
     }
 }
 
-/*
-        @media only screen and (max-width : 1290px) and (min-width : 1051px) {
-          /* Medium desktop: 4 tiles
-          .box {
-            width: 25%;
-            padding-bottom: 25%;
-          }
-        }*/
 
-
-/*
-.percentageBorder{
-    width:90%;
-    border-bottom: 1px solid #3b5998;
-    border-bottom-width:thin;
-}*/
-
-.projectTypeHeadingDiv {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    color: #CC0000;
-    padding-left: 10px;
-    border-top: 1px solid #CC0000;
-    padding-top: 15px;
+.boxInner {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    overflow: hidden;
 }
 
-    .projectTypeHeadingDiv .fa-home {
-        padding-left: 15px; /*extra padding because the home icon's roof sticks out more than the apartment icon */
+    .boxInner img {
+        width: 100%;
     }
 
-    .projectTypeHeadingDiv .media-object {
-        padding-right: 10px; /*extra padding because of bug with Android Browser */
-    }
-
-.projectTypeHeadingText {
+body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+    margin-bottom: 0;
 }
 
-#residentialSection {
-    margin-top: 15px;
-}
 
 .projectThumbnail {
 }
@@ -686,24 +641,10 @@ footer {
     transform-style: preserve-3d;
 }
 
-.boxInnerText {
-    position: absolute;
-    top: 20%;
-    transform: translateY(-60%);
-    padding: 15px;
+.projectHeadingBoxInnerText {
+    padding: 5%;
     color: #22356b;
 }
-
-@font-face {
-    font-family: 'Florsn01';
-    src: url('../fonts/Florsn01.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'RobotoCondensed-Regular';
-    src: url('../fonts/RobotoCondensed-Regular.ttf') format('truetype');
-}
-
 
 .glyphicon-triangle-right {
     font-size: 0.8em;
@@ -728,17 +669,8 @@ footer {
         padding-bottom: 100%;
     }
 
-    .projectHeadingBox {
-        padding-bottom: 20%;
-    }
 
 
-    .boxInnerText {
-        position: absolute;
-        padding-top: 10%;
-        transform: translateY(0%);
-        padding-bottom: 5px;
-    }
 
     .glyphicon-triangle-right {
         display: none;
