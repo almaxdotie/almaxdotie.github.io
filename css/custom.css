@@ -735,7 +735,7 @@ footer {
 
     .boxInnerText {
         position: absolute;
-        top: -20%;
+        padding-top: 10%;
         transform: translateY(0%);
         padding-bottom: 5px;
     }
