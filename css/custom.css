@@ -545,7 +545,7 @@ footer {
 .box {
     float: left;
     position: relative;
-    width: 20%;
+    width: 50%;
     padding-bottom: 20%;
 }
 
@@ -678,7 +678,7 @@ footer {
 
 .boxInnerText {
     position: absolute;
-    top: 40%;
+    top: 20%;
     transform: translateY(-60%);
     padding: 15px;
     color: #22356b;
