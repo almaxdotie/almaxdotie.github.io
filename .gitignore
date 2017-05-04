@@ -308,3 +308,4 @@ paket-files/
 *backup*
 *old*
 *config*
+*.config
